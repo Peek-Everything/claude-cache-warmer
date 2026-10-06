@@ -148,9 +148,9 @@ claude plugin test plugins/cache-warmer     # 21 tests, mocked clock
 statusline/test.sh                          # 9 tests
 ```
 
-CI runs the status line tests and the marketplace check. The plugin checks run there as a
-non-blocking job: GitHub-hosted runners currently reject the early-access hooks module, so
-run the two `claude plugin` commands locally before tagging a release.
+CI runs the status line tests and the marketplace check. It does not run the plugin checks:
+GitHub-hosted runners currently reject the early-access hooks module. Run the two
+`claude plugin` commands locally before tagging a release.
 
 ## Prior art
 

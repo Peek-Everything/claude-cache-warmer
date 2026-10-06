@@ -11,18 +11,6 @@ jobs:
       - run: claude --version
       - run: claude plugin validate .
       - run: statusline/test.sh
-
-  # The plugin hooks API is early access. On GitHub-hosted runners `claude plugin validate`
-  # rejects the hooks module ("hooks: expected record"), while the same files and version
-  # pass on a workstation (2.1.285 / 2.1.289 / 2.1.290, also with an empty config and CI=true).
-  # Kept visible but non-blocking until runners get the feature; run these locally before release.
-  plugin:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - run: npm install -g @anthropic-ai/claude-code
-      - run: claude plugin validate plugins/cache-warmer
-      - run: claude plugin test plugins/cache-warmer
+      # Plugin checks (`claude plugin validate|test plugins/cache-warmer`) are not run here:
+      # GitHub-hosted runners reject the early-access hooks module even though the same
+      # files and versions pass on a workstation. Run them locally before every release.

@@ -33,10 +33,9 @@ claude plugin validate .                      # marketplace manifest
 statusline/test.sh                            # status line segment tests
 ```
 
-Run all four before every commit. CI runs the last two as blocking checks. The plugin
-checks run in a non-blocking job because GitHub-hosted runners currently reject the
-early-access hooks module (see `.github/workflows/test.yml`), so a green CI does not
-cover the plugin. Run the plugin checks locally.
+Run all four before every commit. CI runs only the last two: GitHub-hosted runners
+currently reject the early-access hooks module (see `.github/workflows/test.yml`), so a
+green CI does not cover the plugin. Run the plugin checks locally.
 
 Type definitions for the plugin API are written by Claude Code itself when it loads the
 plugin (`plugins/cache-warmer/.claude-plugin/types/`, git-ignored). Nothing to install.
