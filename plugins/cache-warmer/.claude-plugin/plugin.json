@@ -1,0 +1,27 @@
+{
+  "name": "cache-warmer",
+  "version": "0.1.0",
+  "description": "Prompt-cache indicator plus an opt-in, bounded keepalive (/warm) that keeps an idle Claude Code session's cache warm, so you don't pay to re-cache the whole conversation when you come back.",
+  "author": { "name": "Dolzhenko" },
+  "license": "MIT",
+  "userConfig": {
+    "auto": {
+      "type": "boolean",
+      "title": "Auto keepalive",
+      "description": "Keep every interactive session warm for the auto window after each reply (1h-TTL sessions only). Off: arm by hand with /warm.",
+      "default": false
+    },
+    "autoWindowMinutes": {
+      "type": "number",
+      "title": "Auto window (minutes)",
+      "description": "How long after the last reply auto keepalive keeps pinging (max 480).",
+      "default": 120
+    },
+    "indicator": {
+      "type": "boolean",
+      "title": "Cache indicator",
+      "description": "Show cache state (warm/cold, time left, hit ratio) under the prompt.",
+      "default": true
+    }
+  }
+}

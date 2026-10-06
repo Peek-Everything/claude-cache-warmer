@@ -1,0 +1,14 @@
+{
+  "name": "claude-cache-warmer",
+  "owner": {
+    "name": "Peek-Everything"
+  },
+  "plugins": [
+    {
+      "name": "cache-warmer",
+      "source": "./plugins/cache-warmer",
+      "description": "Prompt-cache indicator + bounded keepalive for Claude Code."
+    }
+  ],
+  "description": "Prompt-cache indicator and bounded keepalive for Claude Code."
+}

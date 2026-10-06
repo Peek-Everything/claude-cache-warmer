@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="515" height="74" viewBox="0 0 515 74" role="img" aria-label="cache ● 1h ████░░ 38m left · hit 91% · keepalive 1h42m ↻2 / cache ○ cold · next message re-caches ~240k tokens">
+  <rect width="100%" height="100%" rx="8" fill="#1e1e1e"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" fill="#d4d4d4">
+  <text x="18.0" y="30.0" textLength="42.0" lengthAdjust="spacingAndGlyphs">cache</text>
+  <circle cx="72.6" cy="25.4" r="3.8" fill="#d4d4d4"/>
+  <text x="85.2" y="30.0" textLength="16.8" lengthAdjust="spacingAndGlyphs">1h</text>
+  <rect x="110.4" y="19.1" width="33.6" height="13.7" fill="#d4d4d4"/>
+  <rect x="144.0" y="19.1" width="16.8" height="13.7" fill="#d4d4d4" fill-opacity="0.28"/>
+  <text x="169.2" y="30.0" textLength="25.2" lengthAdjust="spacingAndGlyphs">38m</text>
+  <text x="202.8" y="30.0" textLength="33.6" lengthAdjust="spacingAndGlyphs">left</text>
+  <circle cx="249.0" cy="25.4" r="1.4" fill="#d4d4d4"/>
+  <text x="261.6" y="30.0" textLength="25.2" lengthAdjust="spacingAndGlyphs">hit</text>
+  <text x="295.2" y="30.0" textLength="25.2" lengthAdjust="spacingAndGlyphs">91%</text>
+  <circle cx="333.0" cy="25.4" r="1.4" fill="#d4d4d4"/>
+  <text x="345.6" y="30.0" textLength="75.6" lengthAdjust="spacingAndGlyphs">keepalive</text>
+  <text x="429.6" y="30.0" textLength="42.0" lengthAdjust="spacingAndGlyphs">1h42m</text>
+  <path d="M487.88,22.29 A4.8,4.8 0 1,1 482.56,20.87" fill="none" stroke="#d4d4d4" stroke-width="1.4" stroke-linecap="round"/><path d="M480.77,24.71 L482.56,20.87 L478.71,19.08" fill="none" stroke="#d4d4d4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="488.4" y="30.0" textLength="8.4" lengthAdjust="spacingAndGlyphs">2</text>
+  <text x="18.0" y="54.0" textLength="42.0" lengthAdjust="spacingAndGlyphs">cache</text>
+  <circle cx="72.6" cy="49.4" r="3.4" fill="none" stroke="#d4d4d4" stroke-width="1.4"/>
+  <text x="85.2" y="54.0" textLength="33.6" lengthAdjust="spacingAndGlyphs">cold</text>
+  <circle cx="131.4" cy="49.4" r="1.4" fill="#d4d4d4"/>
+  <text x="144.0" y="54.0" textLength="33.6" lengthAdjust="spacingAndGlyphs">next</text>
+  <text x="186.0" y="54.0" textLength="58.8" lengthAdjust="spacingAndGlyphs">message</text>
+  <text x="253.2" y="54.0" textLength="75.6" lengthAdjust="spacingAndGlyphs">re-caches</text>
+  <text x="337.2" y="54.0" textLength="42.0" lengthAdjust="spacingAndGlyphs">~240k</text>
+  <text x="387.6" y="54.0" textLength="50.4" lengthAdjust="spacingAndGlyphs">tokens</text>
+  </g>
+</svg>
