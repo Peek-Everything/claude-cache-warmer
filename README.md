@@ -50,7 +50,10 @@ releases.
 | `/warm status` | Cache state, TTL (and where it came from), keepalive state. |
 | `/warm test` | Send one ping now and report what the cache served (`read` should be large and `wrote` small). |
 
-**Settings** (`/config` → cache-warmer, or `pluginConfigs` in `settings.json`):
+**Settings.** The defaults below apply as soon as it's installed. To change them, run
+`/plugin configure cache-warmer@claude-cache-warmer` (or edit `pluginConfigs` in `settings.json`).
+The installer's note that options are "not yet set" just means the defaults are in use.
+
 
 | Option | Default | |
 |---|---|---|
